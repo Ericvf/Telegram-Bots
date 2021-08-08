@@ -1,0 +1,59 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>17102cb5-a4e7-496f-8ffa-1bbc41e9d7d9</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="config\ArtOfWarBotState.json" />
+    <Content Remove="config\BitbucketBotState.json" />
+    <Content Remove="config\ChuckNorrisBotState.json" />
+    <Content Remove="config\CodeArtistsBotState.json" />
+    <Content Remove="config\HappinessBotState.json" />
+    <Content Remove="config\MemeBotState.json" />
+    <Content Remove="config\ReminderBotState.json" />
+    <Content Remove="config\TodoBotState.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="config\ArtOfWarBotState.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="config\BitbucketBotState.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="config\ChuckNorrisBotState.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="config\CodeArtistsBotState.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="config\HappinessBotState.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="config\MemeBotState.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="config\ReminderBotState.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="config\TodoBotState.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TelegramBots\TelegramBots.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="config\PrinterBotState.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="config\UnifyEventsBotState.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
