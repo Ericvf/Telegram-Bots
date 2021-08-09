@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelegramBots", "TelegramBot
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelegramBotsApp", "TelegramBotsApp\TelegramBotsApp.csproj", "{99C1181D-F9E5-4288-A1F7-4AEEDD090A7F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnifiApi", "..\UnifiClient\UnifiClient\UnifiApi\UnifiApi.csproj", "{32B902F2-EED4-4BFA-AA90-C34C5DC0C488}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{99C1181D-F9E5-4288-A1F7-4AEEDD090A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99C1181D-F9E5-4288-A1F7-4AEEDD090A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99C1181D-F9E5-4288-A1F7-4AEEDD090A7F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{32B902F2-EED4-4BFA-AA90-C34C5DC0C488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{32B902F2-EED4-4BFA-AA90-C34C5DC0C488}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{32B902F2-EED4-4BFA-AA90-C34C5DC0C488}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{32B902F2-EED4-4BFA-AA90-C34C5DC0C488}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
