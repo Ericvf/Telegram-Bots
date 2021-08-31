@@ -2,11 +2,11 @@
 {
     public class FavQsConfig : IFavQsConfig
     {
-        public string Api { get; set; }
+        public string Key { get; set; }
     }
 
     public interface IFavQsConfig
     {
-        public string Api { get; }
+        public string Key { get; }
     }
 }

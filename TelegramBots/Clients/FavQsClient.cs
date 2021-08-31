@@ -13,7 +13,7 @@ namespace TelegramBots.Clients
 
         public FavQsClient(IFavQsConfig favQsConfig)
         {
-            ApiKey = favQsConfig.Api;
+            ApiKey = favQsConfig.Key;
         }
 
         public async Task<string> SearchQuote()
